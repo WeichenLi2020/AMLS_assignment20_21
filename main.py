@@ -25,19 +25,19 @@ imgsB2_test,eyecolors_test=model_B2.load_testdata('./dataset_AMLS_20-21_test/car
 # ======================================================================================================================
 # Task A1
 model=model_A1.load_model('./A1/optimalCNN-bak.h5')
-model=model_A1.retrain(imgsA_train,genders_train,imgsA_val,genders_val)
+model=model_A1.retrain(imgsA_train,genders_train,imgsA_val,genders_val) #comment this line to use the pre-trained model
 _,acc_A1_train= model.evaluate(imgsA_train,genders_train)
 _,acc_A1_test= model.evaluate(imgsA_test,genders_test)
 # ======================================================================================================================
 # Task A2
 model=model_A2.load_model('./A2/optimalCNN-bak.h5')
-#model=model_A2.retrain(imgsA_train,smiling_train,imgsA_val,smiling_val)
+model=model_A2.retrain(imgsA_train,smiling_train,imgsA_val,smiling_val) #comment this line to use the pre-trained model
 _,acc_A2_train= model.evaluate(imgsA_train,smiling_train)
 _,acc_A2_test= model.evaluate(imgsA_test,smiling_test)
 # ======================================================================================================================
 # Task B1
 model=model_B1.load_model('./B1/optimalCNN-bak.h5')
-#model=model_B1.retrain(imgsB1_train,faceshapes_train,imgsB1_val,faceshapes_val)
+model=model_B1.retrain(imgsB1_train,faceshapes_train,imgsB1_val,faceshapes_val) #comment this line to use the pre-trained model
 _,acc_B1_train= model.evaluate(imgsB1_train,faceshapes_train)
 _,acc_B1_test= model.evaluate(imgsB1_test,faceshapes_test)
 
