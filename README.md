@@ -21,26 +21,26 @@ OpenCV  verision 4.4.0
 
 # Structure of repository
 <pre><code>.
-|   main.py					  # Run the project with either pre-trained models or training functions
-|   README.md					# Read-me file of the repository
+|   main.py			 # Run the project with either pre-trained models or training functions
+|   README.md			 # Read-me file of the repository
 |
 +---A1
-|   |   A1module.py			  # Essential codes for task A1 (Gender classfication)
-|   |   optimalCNN-bak.h5	    # Pre-trained model for task A1
+|   |   A1module.py			 # Essential codes for task A1 (Gender classfication)
+|   |   optimalCNN-bak.h5		 # Pre-trained model for task A1
 |   |
 +---A2
-|   |   A2module.py			  # Essential codes for task A2 (Smile recognition)
-|   |   optimalCNN-bak.h5	    # Pre-trained model for task A2
+|   |   A2module.py			 # Essential codes for task A2 (Smile recognition)
+|   |   optimalCNN-bak.h5		 # Pre-trained model for task A2
 +---B1
-|   |   B1module.py			  # Essential codes for task B1 (Face shape recognition)
-|   |   optimalCNN-bak.h5	    # Pre-trained model for task B1
+|   |   B1module.py			 # Essential codes for task B1 (Face shape recognition)
+|   |   optimalCNN-bak.h5		 # Pre-trained model for task B1
 |
 +---B2
 |   |   B2module.py			  # Essential codes for task B2 (Eye color recognition)
 |
-+---dataset					  # Datasets (training set and validation set) of the project
++---dataset			  # Datasets (training set and validation set) of the project
 |   +---cartoon_set			  # Dataset (training set and validation set) for task B1 and B2
-|   |   |   labels.csv		   # Labels of face-shape and eye-color for each image
+|   |   |   labels.csv			  # Labels of face-shape and eye-color for each image
 |   |   |
 |   |   \---img
 |   |           0.png
@@ -49,8 +49,8 @@ OpenCV  verision 4.4.0
 |   |           ......
 |   |           2499.png
 |   |
-|   \---celeba				    # Dataset (training set and validation set) for task A1 and A2
-|       |   labels.csv		    # Labels of gender and smiling for each image
+|   \---celeba			  # Dataset (training set and validation set) for task A1 and A2
+|       |   labels.csv			  # Labels of gender and smiling for each image
 |       |
 |       \---img
 |               0.jpg
@@ -59,9 +59,9 @@ OpenCV  verision 4.4.0
 |               ......
 |               4999.jpg
 |
-\---dataset_AMLS_20-21_test	    # Datasets (test set) of the project
-###     +---cartoon_set_test	   # Dataset (test set) for task B1 and B2
-    |   |   labels.csv		     # Labels of face-shape and eye-color for each image
+\---dataset_AMLS_20-21_test		   # Datasets (test set) of the project
+###     +---cartoon_set_test		   # Dataset (test set) for task B1 and B2
+    |   |   labels.csv			   # Labels of face-shape and eye-color for each image
     |   |
     |   \---img
     |           0.png
@@ -70,8 +70,8 @@ OpenCV  verision 4.4.0
     |           ......
     |           2499.png
     |
-    \---celeba_test			    # Dataset (test set) for task A1 and A2
-        |   labels.csv		     # Labels of gender and smiling for each image
+    \---celeba_test			   # Dataset (test set) for task A1 and A2
+        |   labels.csv			   # Labels of gender and smiling for each image
         |
         \---img
                 0.jpg
