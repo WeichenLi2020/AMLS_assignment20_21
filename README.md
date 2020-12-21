@@ -19,3 +19,64 @@ Kerastuner verision 1.0.2
 Scikit-learn verision 0.23.2
 OpenCV  verision 4.4.0
 
+#Struture
+<pre><code>.
+|   main.py
+|   README.md
+|
++---A1
+|   |   A1module.py
+|   |   optimalCNN-bak.h5
+|   |
++---A2
+|   |   A2module.py
+|   |   optimalCNN-bak.h5
++---B1
+|   |   B1module.py
+|   |   optimalCNN-bak.h5
+|
++---B2
+|   |   B2module.py
+|
++---dataset
+|   +---cartoon_set
+|   |   |   labels.csv
+|   |   |
+|   |   \---img
+|   |           0.png
+|   |           1.png
+|   |           2.png
+|   |           ......
+|   |           2499.png
+|   |
+|   \---celeba
+|       |   labels.csv
+|       |
+|       \---img
+|               0.jpg
+|               1.jpg
+|               2.jpg
+|               ......
+|               4999.jpg
+|
+\---dataset_AMLS_20-21_test
+    +---cartoon_set_test
+    |   |   labels.csv
+    |   |
+    |   \---img
+    |           0.png
+    |           1.png
+    |           2.png
+    |           ......
+    |           2499.png
+    |
+    \---celeba_test
+        |   labels.csv
+        |
+        \---img
+                0.jpg
+                1.jpg
+                2.jpg
+                ......
+                999.jpg
+</code></pre>
